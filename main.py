@@ -1,7 +1,8 @@
 print("Hello, World!")
 
+def greet(name):
+    return f"Hello, {name}!"
+
 try:
-
-catch
-
-finally:
+    name = input("Enter your name: ")
+    print(greet(name))
