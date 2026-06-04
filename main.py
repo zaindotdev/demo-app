@@ -1,5 +1,10 @@
 print("Hello, World!")
 
-try:
+def greet(name):
+    return f"Hello, {name}!"
 
-catch
+try:
+    name = input("Enter your name: ")
+    print(greet(name))
+
+    hello
