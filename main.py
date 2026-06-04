@@ -6,3 +6,5 @@ def greet(name):
 try:
     name = input("Enter your name: ")
     print(greet(name))
+
+    hello
